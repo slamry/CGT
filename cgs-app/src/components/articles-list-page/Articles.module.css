@@ -1,0 +1,135 @@
+.content {
+    padding: 10% 10%;
+}
+
+@media (max-width:768px) {
+    .content {
+        margin-top: 0%;
+    }
+}
+
+@media (max-width:320px) {
+    .content {
+        margin-top: 10%;
+    }
+}
+
+.rect {
+    margin: 5% 5%;
+    background: #FFFFFF;
+    border: 1px solid #74A29E;
+    border-radius: 1.5em;
+}
+
+@media (max-width:320px) {
+    .rect {
+        border-radius: 0.7em;
+        height: 6em;
+    }
+}
+
+.img{
+    display: flex;
+    justify-items: center;
+}
+
+.test__content {
+    margin: 5%;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 1fr;
+}
+
+@media (max-width:320px) {
+    .test__content {
+        grid-template-columns: 33% 67%;
+        grid-template-rows: 3.5em;
+    }
+}
+
+.pic {
+    height: 100%;
+}
+
+@media (max-width:320px) {
+    .pic {
+        margin-top: 13%;
+        height: 3.5em;
+    }
+}
+
+.text {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 30% 70%;
+    align-items: center;
+    justify-items: center;
+}
+
+@media (max-width:320px) {
+    .text {
+        grid-template-rows: 1fr 5fr;
+    }
+}
+
+.test__link {
+    all: initial;
+}
+
+.test__link * {
+    all: unset;
+}
+.test__link:hover:after,
+.test__link:focus:after {
+  width: 100%;
+}
+
+.test__link {
+    font-size: 1.4em;
+    font-weight: 500;
+    margin-bottom: 2%;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+@media (max-width:320px) {
+    .test__link {
+        font-size: 0.5em;
+        font-weight: 600;
+        line-height: 117%;    }
+}
+
+.title {
+    text-align: center;
+    line-height: 76%;
+}
+
+.desc {
+    text-align: justify;
+}
+
+@media (max-width:320px) {
+    .desc {
+        font-size: 0.5em;
+    }
+}
+
+.tests {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+}
+
+@media (max-width:768px) {
+    .tests {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(12, 1fr);
+    }
+}
+
+@media (max-width:320px) {
+    .tests {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(12, 1fr);
+    }
+}
