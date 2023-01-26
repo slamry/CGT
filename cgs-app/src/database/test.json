@@ -1,0 +1,110 @@
+{
+    "test1": [
+        {
+            "question": "Вам нравится ухаживать за животными?",
+            "positiveAnswer": "Да",
+            "negativeAnswer": "Нет"
+        },
+        {
+            "question": "Вы любите читать про растения?",
+            "positiveAnswer": "Да",
+            "negativeAnswer": "Нет"
+        },
+        {
+            "question": "Вы хорошо ладите с животными?",
+            "positiveAnswer": "Да",
+            "negativeAnswer": "Нет"
+        },
+        {
+            "question": "Вы бы хотели выводить новые сорта растений?",
+            "positiveAnswer": "Да",
+            "negativeAnswer": "Нет"
+        },
+        {
+            "question": "Вам бы хотелось лечить животных / растения?",
+            "positiveAnswer": "Да",
+            "negativeAnswer": "Нет"
+        }
+    ],
+    "test2": [
+        {
+            "question": "Вы бы хотели конструировать, проектировать новые виды промышленных изделий?",
+            "positiveAnswer": "Да",
+            "negativeAnswer": "Нет"
+        },
+        {
+            "question": "Вам было бы интересно изготовлять по чертежам детали, изделия (машины, одежду), строить здания? ",
+            "positiveAnswer": "Да",
+            "negativeAnswer": "Нет"
+        },
+        {
+            "question": "Вы легко понимаете суть физических формул, запоминаете их и даже можете их вывести?",
+            "positiveAnswer": "Да",
+            "negativeAnswer": "Нет"
+        },
+        {
+            "question": "Когда вы пишете, вы стараетесь передать только смысл, а не добиться красоты текста?",
+            "positiveAnswer": "Да",
+            "negativeAnswer": "Нет"
+        },
+        {
+            "question": "Вам нравится читать про открытия в научных областях?",
+            "positiveAnswer": "Да",
+            "negativeAnswer": "Нет"
+        }
+    ],
+    "test3": [
+        {
+            "question": "Вам нравится помогать больным людям?",
+            "positiveAnswer": "Да",
+            "negativeAnswer": "Нет"
+        },
+        {
+            "question": "Вам интересна реклама различных товаров?",
+            "positiveAnswer": "Да",
+            "negativeAnswer": "Нет"
+        },
+        {
+            "question": "Вы можете представить себя в роли тренера/инструктора по чему-либо?",
+            "positiveAnswer": "Да",
+            "negativeAnswer": "Нет"
+        },
+        {
+            "question": "Вам нравится организовывать культпоходы в театры, музеи, экскурсии?",
+            "positiveAnswer": "Да",
+            "negativeAnswer": "Нет"
+        },
+        {
+            "question": "Вы умеете разбирать споры, ссоры между людьми, убеждать, разъяснять?",
+            "positiveAnswer": "Да",
+            "negativeAnswer": "Нет"
+        }
+    ],
+    "test4": [
+        {
+            "question": "Вы легко ориентируетесь в планах, таблицах и чертежах?",
+            "positiveAnswer": "Да",
+            "negativeAnswer": "Нет"
+        },
+        {
+            "question": "Вам нравится искать и исправлять ошибки в текстах, таблицах, рисунках?",
+            "positiveAnswer": "Да",
+            "negativeAnswer": "Нет"
+        },
+        {
+            "question": "Вы можете составлять точные описания-отчеты о наблюдаемых явлениях, событиях, измеряемых объектах?",
+            "positiveAnswer": "Да",
+            "negativeAnswer": "Нет"
+        },
+        {
+            "question": "Вам было бы интересно работать на клавишных машинах (телетайпе, наборной машине и др.)?",
+            "positiveAnswer": "Да",
+            "negativeAnswer": "Нет"
+        },
+        {
+            "question": "Вы хорошо справляетесь с вычислениями и расчетами?",
+            "positiveAnswer": "Да",
+            "negativeAnswer": "Нет"
+        }
+    ]
+}
