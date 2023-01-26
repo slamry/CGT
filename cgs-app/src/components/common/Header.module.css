@@ -1,0 +1,25 @@
+ul {
+    list-style-type: none;
+}
+
+.title {
+    padding-bottom: 0.7%;
+    font-weight: 600;
+    font-size: 170%;
+    letter-spacing: 0.161em;
+    color: #4D6568;
+}
+
+@media (max-width:768px) {
+    .title{
+        letter-spacing: 0.146em;
+        padding-bottom: 1.5%;
+    }
+}
+@media (max-width:320px) {
+    .title{
+        letter-spacing: 0.178em;
+        font-size: 70%;
+        padding-bottom: 2%;
+    }
+}

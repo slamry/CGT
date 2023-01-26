@@ -1,0 +1,122 @@
+footer{
+    background: #B1DCD2;
+}
+
+.content{
+    padding: 2% 5%;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    font-size: 0.8em;
+    color: #4D6568;
+    align-items: center;
+    justify-items: center;
+}
+@media (max-width:768px) {
+    .content{
+        font-size: 0.5em;
+    }
+}
+@media (max-width:320px) {
+    .content{
+        padding: 2% 2%;
+    }
+}
+
+@media (max-width:320px) {
+    .contactus{
+        padding:0%;
+    }
+}
+
+.contactus p{
+    font-weight: 600;
+    font-size: 1.5em;
+}
+@media (max-width:768px) {
+    .contactus p{
+        margin-top: 10%;
+    }
+}
+@media (max-width:320px) {
+    .contactus p{
+        margin-top: 0%;
+        font-size: 0.5em;
+        text-align: left;
+    }
+}
+
+.contactus ul{
+    list-style-type: disc;
+    padding: 0%;
+    padding-left: 8%;
+    margin: 0%;
+    margin-top: 2%;
+}
+.contactus ul li p{
+    font-weight: 500;
+}
+@media (max-width:768px) {
+    .contactus ul{
+        margin-top: 7%;
+    }
+    .contactus ul li p{  
+        margin-top: 0%;
+    }
+}
+@media (max-width:320px) {
+    .contactus ul{
+        margin-top: 8%;
+        margin-left: 30%;
+        padding: 0%;
+    }
+    .contactus ul li p{  
+        margin-top: -8%;      
+        margin-left: -12%;
+        font-size: 5px;
+    }
+}
+
+.logo{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+.abbr{
+    font-size: 3em;
+}
+.decoding{
+    padding: 0% 50%;
+    text-align: center;
+    letter-spacing: 0.195em;
+}
+@media (max-width:320px) {
+    .logo{
+        align-items: flex-start;
+        grid-template-rows: 40% 40%;
+    }
+    .abbr{
+        font-size: 1.5em;
+    }
+    .decoding{
+        font-size: 0.5em;
+    }
+}
+
+.footlink:hover{
+    color:#FFF;
+    transition: all 0.3s;
+}
+@media (max-width:320px) {
+    .footlink {
+        font-size: 0.9em;
+        letter-spacing: 0.05em;
+        padding-left: 0%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+}
+
+.footlink:hover:after,
+.footlink:focus:after {
+  width: 100%;
+}
