@@ -1,0 +1,132 @@
+.content {
+    padding: 10%;
+    padding-bottom: 8%;
+    color: #284043;
+}
+
+@media (max-width:768px) {
+    .content {
+        padding: 5%;
+        padding-top: 10%;
+    }
+}
+
+@media (max-width:320px) {
+    .content {
+        padding-top: 15%;
+    }
+}
+
+.img>img {
+    width: 100%;
+    height: 50%;
+}
+
+@media (max-width:320px) {
+    .img>img {
+        height: 4em;
+        margin-bottom: 1%;
+    }
+}
+
+.rect {
+    margin-top: 3%;
+    margin-bottom: 5%;
+    padding: 5%;
+    background: #FFFFFF;
+    border: 1px solid #74A29E;
+    border-radius: 1.5em;
+    height: 100%;
+}
+@media (max-width: 768px) {
+    .rect {
+        padding: 7%;
+    }
+}
+@media (max-width: 320px) {
+    .rect {
+        padding: 10% 8%;
+    }
+}
+
+.title {
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.5em;
+    margin-bottom: 2%;
+}
+
+@media (max-width: 320px) {
+    .title {
+        font-size: 0.85em;
+        margin-bottom: 6%;
+        line-height: 100%;
+    }
+}
+
+.text_content {
+    text-align: justify;
+    text-indent: 50px;
+    line-height: 175%;
+}
+
+@media (max-width: 768px) {
+    .text_content {
+        line-height: 155%;
+    }
+}
+
+@media (max-width: 320px) {
+    .text_content {
+        font-size: 0.6em;
+        line-height: 150%;
+        letter-spacing: 0.5px;
+        text-indent: 20px;
+    }
+}
+
+.button_field {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+.back_to_articles {
+    background: #F0D3C2;
+    border: 1px solid #C16471;
+    border-radius: 0.7em;
+    width: 15em;
+    height: 3em;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5em;
+    line-height: 138%;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    transition: all 0.3s;
+}
+
+@media (max-width: 768px) {
+    .back_to_articles {
+        font-size: 1.2em;
+    }
+}
+
+@media (max-width: 320px) {
+    .back_to_articles {
+        font-size: 0.6em;
+        margin-top: 4%;
+    }
+}
+
+.back_to_articles:hover {
+    background: #f5a97d;
+    transition: all 0.3s;
+}
+
+.back_to_articles:active {
+    border-radius: 1.5em;
+    transition: all 0.3s;
+}
